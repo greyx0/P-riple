@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="MinorArcanaCard" format=3 uid="uid://5ft723xbm6i2"]
+
+[ext_resource type="Script" uid="uid://bv1ml1ne0qjwx" path="res://scripts/minorarcana.gd" id="1_cpomh"]
+
+[resource]
+script = ExtResource("1_cpomh")
+metadata/_custom_type_script = "uid://bv1ml1ne0qjwx"

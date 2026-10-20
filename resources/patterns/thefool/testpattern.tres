@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="BossPattern" format=3 uid="uid://lcsy1aoit1hq"]
+
+[ext_resource type="Script" uid="uid://bnkwuktd646tm" path="res://scripts/bosses/boss_pattern.gd" id="1_ksxwo"]
+
+[resource]
+script = ExtResource("1_ksxwo")
+metadata/_custom_type_script = "uid://bnkwuktd646tm"
