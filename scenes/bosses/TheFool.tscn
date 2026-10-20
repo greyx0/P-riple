@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://j4hwegdntjtt"]
+
+[ext_resource type="PackedScene" uid="uid://cv7md6rha6est" path="res://scenes/bosses/BossTemplate.tscn" id="1_gy723"]
+[ext_resource type="Script" uid="uid://vmg6pbg3msi6" path="res://scripts/bosses/the_fool.gd" id="2_gta4p"]
+
+[node name="BossBase" unique_id=678696919 instance=ExtResource("1_gy723")]
+script = ExtResource("2_gta4p")
+fool_bullet_scene = null
+teleport_cooldown = 3.0

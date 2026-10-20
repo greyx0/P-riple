@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://cv7md6rha6est"]
+
+[ext_resource type="Script" uid="uid://dngq5flwil4gq" path="res://scripts/bosses/bossbase.gd" id="1_pl8l4"]
+[ext_resource type="Script" uid="uid://dxbme61amctbs" path="res://scripts/pattern_spawner.gd" id="2_cqbgh"]
+
+[node name="BossBase" type="CharacterBody2D" unique_id=678696919]
+script = ExtResource("1_pl8l4")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1792648524]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2011453514]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1992509874]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=521650666]
+
+[node name="Timer" type="Timer" parent="." unique_id=22464050]
+
+[node name="PatternSpawner" type="Node2D" parent="." unique_id=1082065508]
+script = ExtResource("2_cqbgh")
