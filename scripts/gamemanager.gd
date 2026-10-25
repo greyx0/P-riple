@@ -1,4 +1,3 @@
-# GameManager.gd
 extends Node
 
 var current_stage: int = 1

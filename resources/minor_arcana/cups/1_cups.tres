@@ -1,7 +1,12 @@
 [gd_resource type="Resource" script_class="MinorArcanaCard" format=3 uid="uid://cqrer54rsceu5"]
 
-[ext_resource type="Script" uid="uid://bv1ml1ne0qjwx" path="res://scripts/minorarcana.gd" id="1_f4aqf"]
+[ext_resource type="Texture2D" uid="uid://to4frdccudg6" path="res://assets/minor_arcana_sprite/cups/ace_of_cups.png" id="1_q8adi"]
+[ext_resource type="Script" uid="uid://bv1ml1ne0qjwx" path="res://scripts/minorarcana.gd" id="2_oct1p"]
 
 [resource]
-script = ExtResource("1_f4aqf")
+script = ExtResource("2_oct1p")
+card_name = "Ace of Cups"
+description = "+0.5 Armor"
+card_icon = ExtResource("1_q8adi")
+stat_boost_amount = 0.5
 metadata/_custom_type_script = "uid://bv1ml1ne0qjwx"
